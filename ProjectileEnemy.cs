@@ -23,6 +23,7 @@ Vector2.MoveTowards(transform.position, targetPosition, speed * Time.deltaTime);
         }
 
     }
+    //Add 2D 
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
